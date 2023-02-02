@@ -1,0 +1,66 @@
+#totalFinanciacion{
+	display: flex;
+}
+
+#divTotalCompra{
+	    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#financiacion{
+	    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#btnReiniciar{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+        width: 150px;
+    font-weight: bold;
+}
+
+#divDolar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+body {
+    --color-bg: #DDDDDD;
+    --color-text: #EE6352;
+}
+
+body.dark-theme {
+    --color-bg: rgb(53,53,53);
+    --color-text: wheat;
+}
+
+body {
+    background-color: var(--color-bg);
+}
+
+h1 {
+    color: var(--color-text);
+}
+
+h4 {
+    color: var(--color-text);
+}
+
+form {
+    color: var(--color-text);
+}
+
+#title{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+#divFormulario{
+        font-weight: bolder;
+}
